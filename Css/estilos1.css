@@ -29,12 +29,13 @@
 }
 
 .logo{
-    height: 100px;
+    height: 100%;
 }
 
 .logo img{
     height: 50%;
     display: block;
+    width: 100 px;
 }
 
 .enlaces li{
@@ -43,7 +44,7 @@
 }
 
 .enlaces a{
-    color: #fff;
+    color: rgb(22, 243, 2);
     text-decoration: none;
     margin-left: 25px;
 }
@@ -70,7 +71,7 @@
      align-items: center;
      justify-content: center;
      flex-direction: column;
-     color: #fff;
+     color: rgb(26, 10, 248);
      text-align: center;
  }
 
