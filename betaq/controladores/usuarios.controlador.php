@@ -391,7 +391,7 @@ class ControladorUsuarios{
 
 				}
 
-				$datos = array("hola" => $_POST["editarNombre"],
+				$datos = array("nombre" => $_POST["editarNombre"],
 							   "usuario" => $_POST["editarUsuario"],
 							   "password" => $encriptar,
 							   "perfil" => $_POST["editarPerfil"],
